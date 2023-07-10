@@ -33,6 +33,13 @@ window.onload = function() {
   card.getElementsByClassName("top-left-icon")[0].textContent = suit;
   card.getElementsByClassName("bottom-right-icon")[0].textContent = suit;
   card.getElementsByClassName("number")[0].textContent = cardNumber;
+  if (suit == "♥" || suit == "♦") {
+    card.getElementsByClassName("top-left-icon")[0].style.color = "red";
+    card.getElementsByClassName("bottom-right-icon")[0].style.color = "red";
+  } else {
+    card.getElementsByClassName("top-left-icon")[0].style.color = "black";
+    card.getElementsByClassName("bottom-right-icon")[0].style.color = "black";
+  }
 };
 
 function getRandomNumber(min, max) {

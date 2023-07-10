@@ -25,7 +25,7 @@ body {
 .bottom-right-icon {
   position: absolute;
   font-size: 24px;
-  color: black;
+
   font-size: 48px;
 }
 
@@ -40,10 +40,10 @@ body {
   right: 10px;
   font-size: 48px;
 }
+
 .number {
   font-size: 72px;
 }
-.top-left-icon.heart,
-.bottom-right-icon.heart {
+.heart {
   color: red;
 }
